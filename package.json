@@ -1,8 +1,8 @@
 {
-  "name": "insight-api-zcash",
-  "description": "A Zcash blockchain REST and web socket API service for Bitcore Node.",
+  "name": "insight-api-privy",
+  "description": "A Privy blockchain REST and web socket API service for Bitcore Node.",
   "version": "0.4.3",
-  "repository": "git://github.com/str4d/insight-api-zcash.git",
+  "repository": "git://github.com/rmoen/insight-api-privy.git",
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -39,18 +39,22 @@
     {
       "name": "Jack Grigg",
       "email": "jack@z.cash"
+    },
+    {
+      "name": "Rob M",
+      "email": "rob@privy.network"
     }
   ],
   "bugs": {
-    "url": "https://github.com/str4d/insight-api-zcash/issues"
+    "url": "https://github.com/rmoen/insight-api-privy/issues"
   },
-  "homepage": "https://github.com/str4d/insight-api-zcash",
+  "homepage": "https://github.com/rmoen/insight-api-privy",
   "license": "MIT",
   "keywords": [
     "insight",
     "insight api",
     "blockchain",
-    "zcash api",
+    "privy api",
     "blockchain api",
     "json",
     "bitcore"
@@ -65,8 +69,8 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "bitcore-lib-zcash": "str4d/bitcore-lib-zcash",
-    "bitcore-message-zcash": "str4d/bitcore-message-zcash",
+    "bitcore-lib-privy": "rmoen/bitcore-lib-privy",
+    "bitcore-message-privy": "rmoen/bitcore-message-privy",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
     "lodash": "^2.4.1",
